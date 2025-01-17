@@ -1,5 +1,5 @@
 [package]
-name = "libmimalloc-sys"
+name = "libmimalloc-sys-rspack"
 version = "0.1.39"
 authors = ["Octavian Oncescu <octavonce@gmail.com>"]
 edition = "2018"
@@ -10,12 +10,12 @@ description = "Sys crate wrapping the mimalloc allocator"
 license = "MIT"
 links = "mimalloc"
 exclude = [
-    "/c_src/mimalloc/bin",
-    "/c_src/mimalloc/cmake",
-    "/c_src/mimalloc/doc",
-    "/c_src/mimalloc/docs",
-    "/c_src/mimalloc/ide",
-    "/c_src/mimalloc/test",
+  "/c_src/mimalloc/bin",
+  "/c_src/mimalloc/cmake",
+  "/c_src/mimalloc/doc",
+  "/c_src/mimalloc/docs",
+  "/c_src/mimalloc/ide",
+  "/c_src/mimalloc/test",
 ]
 
 [dependencies]
