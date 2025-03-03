@@ -10,7 +10,7 @@ publish = false
 [dependencies]
 libmimalloc-sys = { path = "..", features = [
   "extended",
-], package = "libmimalloc-sys-rspack" }
+], package = "rspack-libmimalloc-sys" }
 libc = "0.2"
 
 [build-dependencies]
