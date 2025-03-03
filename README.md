@@ -3,7 +3,7 @@
 This is a FORKED version of Mimalloc Rust.
 
 - Upgraded mimalloc Rust to version v3
-- Changed name from mimalloc to mimalloc-rspack and libmimalloc-sys-rspack
+- Changed name from mimalloc to mimalloc-rspack and libmimalloc-sys
 - Versions of rust crates are changed to v0.2
 - `package.links` was removed in libmimalloc-sys-rspack. Now, you will be responsible for not linking multiple copies of the same mimalloc
 

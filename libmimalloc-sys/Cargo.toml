@@ -1,5 +1,5 @@
 [package]
-name = "libmimalloc-sys-rspack"
+name = "rspack-libmimalloc-sys"
 version = "0.2.1"
 authors = ["Octavian Oncescu <octavonce@gmail.com>"]
 edition = "2018"
