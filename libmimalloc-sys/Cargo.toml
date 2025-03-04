@@ -1,6 +1,6 @@
 [package]
 name = "rspack-libmimalloc-sys"
-version = "0.2.2"
+version = "0.2.3"
 authors = ["Octavian Oncescu <octavonce@gmail.com>"]
 edition = "2018"
 repository = "https://github.com/purpleprotocol/mimalloc_rust/tree/master/libmimalloc-sys"
@@ -16,6 +16,13 @@ exclude = [
   "/c_src/mimalloc/docs",
   "/c_src/mimalloc/ide",
   "/c_src/mimalloc/test",
+
+  "/c_src/mimalloc-v3/bin",
+  "/c_src/mimalloc-v3/cmake",
+  "/c_src/mimalloc-v3/doc",
+  "/c_src/mimalloc-v3/docs",
+  "/c_src/mimalloc-v3/ide",
+  "/c_src/mimalloc-v3/test",
 ]
 
 [dependencies]
