@@ -48,6 +48,12 @@ jobs:
       - name: Test (no secure)
         run: cargo test
 
+      - name: Build v3 (no secure)
+        run: cargo build --features v3
+
+      - name: Test v3 (no secure)
+        run: cargo test --features v3
+
       - name: Test libmimalloc-sys crate bindings (no secure)
         run: cargo run -p libmimalloc-sys-test
         
