@@ -8,7 +8,9 @@ license = "MIT"
 publish = false
 
 [dependencies]
-libmimalloc-sys = { path = "..", features = ["extended"] }
+libmimalloc-sys = { path = "..", features = [
+  "extended",
+], package = "rspack-libmimalloc-sys" }
 libc = "0.2"
 
 [build-dependencies]

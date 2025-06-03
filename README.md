@@ -1,5 +1,11 @@
 # Mimalloc Rust
 
+This is a FORKED version of Mimalloc Rust.
+
+- Support mimalloc v3, use feature `v3` to enable.
+- Changed name from mimalloc to mimalloc-rspack and rspack-libmimalloc-sys
+- Versions of rust crates are changed to v0.2
+
 [![Latest Version]][crates.io] [![Documentation]][docs.rs]
 
 A drop-in global allocator wrapper around the [mimalloc](https://github.com/microsoft/mimalloc) allocator.
